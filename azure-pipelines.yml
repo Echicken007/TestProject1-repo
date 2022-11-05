@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'jattestproj1-dev-rg'
     location: 'Australia East'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/Echicken007/TestProject1-repo/main/CreateWebApp/azuredeploy.json'
+    csmFileLink: 'https://raw.githubusercontent.com/Echicken007/TestProject1-repo/main/CreateWebApp/azuredeploy.json?token=GHSAT0AAAAAAB2ZXQ5JOTHLNXNMMI7QYIMSY3F5BPQ'
     overrideParameters: '-projectName jattestproj1'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
