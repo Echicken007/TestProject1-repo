@@ -13,13 +13,13 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'TestProject1-conn'
+    azureResourceManagerConnection: 'jattestproj1-conn'
     subscriptionId: '1ed5b6d6-c955-43ee-be16-12b5a0da058b'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'TestProject1-dev-rg'
+    resourceGroupName: 'jattestproj1-dev-rg'
     location: 'Australia East'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/Echicken007/TestProject1-repo/main/CreateWebApp/azuredeploy.json?token=GHSAT0AAAAAAB2LGDISWNFZWQGYLUBSA7YSY2XJL5Q'
-    overrideParameters: '-projectName TestProject1'
+    overrideParameters: '-projectName jattestproj1'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
